@@ -1,6 +1,9 @@
 puts "Hello, please enter your name:"
-input = gets.chomp
+input_first = gets.chomp
+puts "Enter your last name:"
+input_last = gets.chomp
 
-puts "Welcome #{input}"
 
-10.times {|repeat| puts input}
+puts "Welcome #{input_first} #{input_last}"
+
+
